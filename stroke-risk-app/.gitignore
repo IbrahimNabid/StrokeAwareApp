@@ -1,3 +1,27 @@
+# ==================================
+# Python Backend Specifics (New Section)
+# ==================================
+# Ignore Python's cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+
+# ==================================
+# Machine Learning Model (New Section)
+# ==================================
+# This is the most important rule for your project.
+# It prevents the large, auto-generated model file from being saved to GitHub.
+stroke-backend/stroke_ensemble_model.joblib
+
+
+# ==================================
+# Original File Contents Below
+# ==================================
+
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies

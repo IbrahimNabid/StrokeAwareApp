@@ -1,13 +1,28 @@
+# ==================================
+# Rule for Your Generated ML Model
+# ==================================
+# It prevents the large, auto-generated model file from being saved to GitHub.
+stroke-backend/stroke_ensemble_model.joblib
+
+
+# ==================================
 # Python
+# ==================================
 __pycache__/
 *.pyc
 
+
+# ==================================
 # Node/React Native
+# ==================================
 node_modules/
 .expo/
 .expo-shared/
 
-# OS/IDE junk
+
+# ==================================
+# OS/IDE junk & Sensitive Info
+# ==================================
 .DS_Store
 .vscode/
 .env
