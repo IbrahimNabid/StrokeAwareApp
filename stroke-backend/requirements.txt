@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-gunicorn
-pandas
-numpy
-scikit-learn
-joblib
-pydantic
-imbalanced-learn
